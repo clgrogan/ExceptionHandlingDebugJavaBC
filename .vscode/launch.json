@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch PrConditionals",
+      "request": "launch",
+      "mainClass": "PrConditionals",
+      "projectName": "JavaExceptionDebug_8d1744e7"
+    },
+    {
+      "type": "java",
       "name": "Launch Current File",
       "request": "launch",
       "mainClass": "${file}"

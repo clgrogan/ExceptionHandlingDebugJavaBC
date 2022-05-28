@@ -1,4 +1,4 @@
-public class Breakpoints {
+public class PrBreakpoints {
   public static void main(String[] args) {
     int number = 5;
     long bigNumber = 500000000000L;
