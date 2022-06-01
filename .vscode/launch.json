@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Ex10Transpose",
+      "request": "launch",
+      "mainClass": "Ex10Transpose",
+      "projectName": "JavaExceptionDebug_8d1744e7"
+    },
+    {
+      "type": "java",
+      "name": "Launch Ex09LowerTriangle",
+      "request": "launch",
+      "mainClass": "Ex09LowerTriangle",
+      "projectName": "JavaExceptionDebug_8d1744e7"
+    },
+    {
+      "type": "java",
       "name": "Launch PrConditionals",
       "request": "launch",
       "mainClass": "PrConditionals",
