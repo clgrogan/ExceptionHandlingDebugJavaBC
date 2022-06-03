@@ -1,6 +1,7 @@
 *.jsdtscope
 
 *entries
+*.class
 
 *format
 
