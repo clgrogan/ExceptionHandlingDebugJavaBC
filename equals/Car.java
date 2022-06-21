@@ -28,5 +28,22 @@ public class Car {
         this.color = color;
     }
 
+    // @Override
+    public String customToString() {
+        return "{ ref: " + this.toString() +
+                " make='" + getMake() + "'" +
+                ", color='" + getColor() + "'" +
+                "}";
+    }
+
+    // @Override
+    public boolean customEquals(Object obj) {
+        boolean result = true;
+        if (obj == null || !(obj instanceof Car))
+            return false;
+        Car car = (Car) obj;
+        result = this.make.equals(car.make) && this.color.equals(car.color);
+        return result;
+    }
 
 }
